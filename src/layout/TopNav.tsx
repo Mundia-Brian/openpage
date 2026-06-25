@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { LayoutDashboard, Pencil, Settings, Menu, X, Star } from 'lucide-react'
+import { LayoutDashboard, Pencil, Settings, Menu, X, FileText } from 'lucide-react'
 import { useState } from 'react'
 
 const links = [
@@ -47,14 +47,14 @@ export function TopNav() {
       {/* Right side */}
       <div className="ml-auto flex items-center gap-2">
         <a
-          href="https://github.com/buildingopen/openpage"
+          href="https://blogs.web-designs.online"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:flex items-center gap-1.5 px-2.5 py-1 rounded-lg border border-border-default text-text-2 text-[11.5px] hover:text-text-0 hover:border-border-hover hover:bg-bg-2 transition-all"
-          title="Star on GitHub"
+          title="Blog"
         >
-          <Star size={12} />
-          GitHub
+          <FileText size={12} />
+          Blog
         </a>
 
         {/* Mobile hamburger */}
