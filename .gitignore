@@ -26,3 +26,7 @@ dist-ssr
 test-results/
 GTM.md
 WORKPLAN-*.md
+
+# Environment files
+.env
+.env.local
